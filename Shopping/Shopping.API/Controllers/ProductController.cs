@@ -1,18 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using MongoDB.Driver;
 using Shopping.API.Data;
 using Shopping.API.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Shopping.API.Controllers
 {
+    [Route("api/[controller]")]
     [ApiController]
-    [Route("[controller]")]
-    public class ProductController
+    public class ProductController : ControllerBase
     {
         private readonly ProductContext _context;
         private readonly ILogger<ProductController> _logger;

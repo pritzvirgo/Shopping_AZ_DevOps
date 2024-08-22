@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30804.86
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35201.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopping.Client", "Shopping.Client\Shopping.Client.csproj", "{1345DCB2-4284-4A3B-BD59-BE9FB31FD17C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopping.API", "Shopping.API\Shopping.API.csproj", "{8886B722-1045-4D6F-BA3D-17683B57F893}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopping.API", "Shopping.API\Shopping.API.csproj", "{5B357236-20C7-4BCD-938F-616D998FCC01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopping.Client", "Shopping.Client\Shopping.Client.csproj", "{D21A1B7D-FE68-4BB4-B1BE-DA0F6B1C6C3E}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FC33DA20-A9C5-4E63-A475-FE92BF2DB77E}"
 EndProject
@@ -15,14 +15,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1345DCB2-4284-4A3B-BD59-BE9FB31FD17C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1345DCB2-4284-4A3B-BD59-BE9FB31FD17C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1345DCB2-4284-4A3B-BD59-BE9FB31FD17C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1345DCB2-4284-4A3B-BD59-BE9FB31FD17C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5B357236-20C7-4BCD-938F-616D998FCC01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5B357236-20C7-4BCD-938F-616D998FCC01}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5B357236-20C7-4BCD-938F-616D998FCC01}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5B357236-20C7-4BCD-938F-616D998FCC01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8886B722-1045-4D6F-BA3D-17683B57F893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8886B722-1045-4D6F-BA3D-17683B57F893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8886B722-1045-4D6F-BA3D-17683B57F893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8886B722-1045-4D6F-BA3D-17683B57F893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D21A1B7D-FE68-4BB4-B1BE-DA0F6B1C6C3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D21A1B7D-FE68-4BB4-B1BE-DA0F6B1C6C3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D21A1B7D-FE68-4BB4-B1BE-DA0F6B1C6C3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D21A1B7D-FE68-4BB4-B1BE-DA0F6B1C6C3E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FC33DA20-A9C5-4E63-A475-FE92BF2DB77E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FC33DA20-A9C5-4E63-A475-FE92BF2DB77E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC33DA20-A9C5-4E63-A475-FE92BF2DB77E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -32,6 +32,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CAD18063-DBDE-477A-8602-1D1F40B1FD48}
+		SolutionGuid = {70A2E5FB-524F-42C1-A36C-1D5DC63E050B}
 	EndGlobalSection
 EndGlobal

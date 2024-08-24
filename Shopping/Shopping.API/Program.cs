@@ -15,6 +15,7 @@ builder.Services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Shopping.API", Version = "v1" });
 });
 
+//DB Context defined Scoped
 builder.Services.AddScoped<ProductContext>();
 
 var app = builder.Build();
